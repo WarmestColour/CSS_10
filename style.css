@@ -1,0 +1,91 @@
+/* Niekas neveikia, nebėra noro gyventi :'( */
+
+* {
+    font-family: Poppins, sans-serif;
+    font-size: 15px;
+    box-sizing: border-box;
+}
+
+header  {
+    text-align: center;
+    padding: 2% 4% 0 4%;
+    line-height: 80%;
+}
+
+header p {
+    color: #CACBCD;
+    line-height: 130%;
+    text-align: center;
+}
+
+
+.all {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    max-width: 1440px;
+}
+
+.sides {
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.topbottom {
+    display: flex;
+    flex-direction: column;
+}
+
+.updown {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.card {
+    background-color: white;
+    padding: 8%;
+    margin: 10%;
+    box-shadow: 0px 10px 10px 3px rgba(0, 0, 0, 0.18);
+    -webkit-box-shadow: 0px 10px 10px 3px rgba(0, 0, 0, 0.18);
+    -moz-box-shadow: 0px 10px 10px 3px rgba(0, 0, 0, 0.18);
+}
+
+
+
+h1{
+    font-weight: 200;
+    opacity: 50%;
+    font-size: 1.8em;
+}
+
+h2{
+    font-size: 1.8em;
+    font-weight: 600;
+    opacity: 60%;
+}
+
+.supervisor {
+    border-top: 5px solid cyan;
+}
+
+.team {
+    border-top: 5px solid red;
+}
+
+.karma {
+    border-top: 5px solid orange;
+}
+
+.calculator {
+    border-top: 5px solid blue;
+}
+
+div img{
+    position: relative;
+    left: 82%;
+}
+
+
